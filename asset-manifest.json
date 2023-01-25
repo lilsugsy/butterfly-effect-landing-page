@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/butterfly-effect-landing-page/static/css/main.47b589ec.css",
+    "main.js": "/butterfly-effect-landing-page/static/js/main.ca366381.js",
+    "static/media/ambient-rain.mp3": "/butterfly-effect-landing-page/static/media/ambient-rain.fdd829948765e8f07786.mp3",
+    "static/media/ambient.mp3": "/butterfly-effect-landing-page/static/media/ambient.f464011416d5b7ee8706.mp3",
+    "static/media/ambient-happy.mp3": "/butterfly-effect-landing-page/static/media/ambient-happy.16c22220580b98d75dd3.mp3",
+    "static/media/logo-2.png": "/butterfly-effect-landing-page/static/media/logo-2.8da6b39fd863bd15bfc3.png",
+    "index.html": "/butterfly-effect-landing-page/index.html",
+    "main.47b589ec.css.map": "/butterfly-effect-landing-page/static/css/main.47b589ec.css.map",
+    "main.ca366381.js.map": "/butterfly-effect-landing-page/static/js/main.ca366381.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47b589ec.css",
+    "static/js/main.ca366381.js"
+  ]
+}
