@@ -3,14 +3,14 @@ import Sound from './sounds/ambient.mp3'
 import Sound2 from './sounds/ambient-rain.mp3'
 import Sound3 from './sounds/ambient-happy.mp3'
 import {Butterfly} from './models/Butterfly'
-import { Environment, OrbitControls,Sparkles,ScrollControls,Scroll,PositionalAudio,Float } from '@react-three/drei';
+import { Environment,Sparkles,ScrollControls,Scroll,PositionalAudio,Float } from '@react-three/drei';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 
 import { useEffect, useRef } from 'react';
-import { EffectComposer, DepthOfField, Bloom, Noise, Vignette} from '@react-three/postprocessing'
+import { EffectComposer, DepthOfField, Bloom, Vignette} from '@react-three/postprocessing'
 
 
 function App() {

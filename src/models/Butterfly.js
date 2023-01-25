@@ -6,7 +6,7 @@ source: https://sketchfab.com/3d-models/butterfly-bb7a9781c2674e59a0f335fb8efb77
 title: Butterfly
 */
 
-import React, { useRef,useEffect,useLayoutEffect } from 'react'
+import React, { useRef,useEffect } from 'react'
 import { useGLTF, useAnimations } from '@react-three/drei'
 
 export function Butterfly(props) {
@@ -15,7 +15,6 @@ export function Butterfly(props) {
   const { actions } = useAnimations(animations, group)
 
   useEffect(() => {
-    console.log(group)
     actions.Object_0.timeScale = 0.15
     actions.Object_0.play()
   },[])
