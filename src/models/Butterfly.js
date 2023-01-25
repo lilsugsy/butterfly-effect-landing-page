@@ -17,7 +17,7 @@ export function Butterfly(props) {
   useEffect(() => {
     actions.Object_0.timeScale = 0.15
     actions.Object_0.play()
-  },[])
+  })
 
   return (
     <group ref={group} {...props} dispose={null}>
