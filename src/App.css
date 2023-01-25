@@ -1,0 +1,106 @@
+
+html,
+body,
+#root
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.App-header {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 40px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 1;
+}
+
+.App-header::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 300px;
+  background: linear-gradient(
+    rgba(0,0,0,1),
+    rgba(0,0,0,0)
+  );
+  pointer-events: none;
+  z-index: -1;
+}
+
+.App-logo {
+  width: 42px;
+  height: auto;
+  pointer-events: none;
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: 'Italiana', serif;
+  color: #fff;
+  margin-bottom: 32px !important;
+}
+
+h1 {
+  font-size: 60px !important;
+}
+
+h2 {
+  font-size: 40px !important;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.8em;
+}
+
+.btn--sound {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 9;
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  color: rgba(255,255,255,0.4);
+  display: none;
+}
+
+.btn--sound span {
+  font-size: 80px !important;
+  font-weight: 200;
+}
+
+/* footer */
+
+footer {
+position: fixed;
+height: 200px;
+bottom: 0px;
+left: 0px;
+right: 0px;
+z-index: 1;
+pointer-events: none;
+background: linear-gradient(
+  rgba(0,0,0,0),
+  rgba(0,0,0,1)
+);
+pointer-events: none;
+z-index: 9;
+}
