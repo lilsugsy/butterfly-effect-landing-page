@@ -1,8 +1,7 @@
 # Getting Started with this project
 
-Download / clone the file
-
-## open the project folder in visual studio code (or your preffered code editor)
+- Download / clone the file
+- open the project folder in visual studio code (or your preffered code editor)
 
 ## Remove the following line from the top of package.json
 -   "homepage": "https://lilsugsy.github.io/butterfly-effect-landing-page"
