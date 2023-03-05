@@ -1,23 +1,24 @@
-# Getting Started with Create React App
+# Getting Started with this project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Download / clone the file
 
-## Available Scripts
+## open the project folder in visual studio code (or your preffered code editor)
 
-In the project directory, you can run:
+## Remove the following line from the top of package.json
+-   "homepage": "https://lilsugsy.github.io/butterfly-effect-landing-page"
 
-### `npm start`
+### Install node packages 
+Right click on the project folder and "open new integrated terminal"
+- run `npm i` in the terminal
+
+### Run the app
+- run `npm start` in the terminal, it should open a new localhost
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
